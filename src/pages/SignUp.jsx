@@ -26,7 +26,7 @@ export default function SignUp() {
 
   async function onSubmit(e){
     e.preventDefault()
-
+    
     try {
       const auth = getAuth()
       const userCredentials = await createUserWithEmailAndPassword(auth, email, password)
