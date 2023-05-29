@@ -120,8 +120,8 @@ export default function Home() {
         });
         setSaleListings(listings);
         console.log(listings);
-      } catch (err) {
-        console.log(err);
+      } catch (error) {
+        console.log(error);
       }
     }
     fetchListings();
