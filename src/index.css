@@ -14,3 +14,11 @@ body {
 .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
   background: #c04cfe !important
 }
+
+html {
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
